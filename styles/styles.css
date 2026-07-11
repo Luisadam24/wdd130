@@ -4,6 +4,9 @@ nav a {color: white; display: block; padding: 20px;}
 h1 {color: darkblue;}
 main img {width: 150px;
      height: auto;
+     padding: 2rem;
+     border: 1px solid black;
+     box-shadow: 5px;
 }
 p {padding: 0;}
 main {max-width: 800px;}
