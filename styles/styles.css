@@ -1,7 +1,14 @@
-nav {background-color: darkblue; padding: 10px;}
+:root {
+    --main-color: darkblue;
+    --secondary-color: lightblue;
+    --text-color: white;
+}
 
-nav a {color: white; display: block; padding: 20px;}
-h1 {color: darkblue;}
+
+nav {background-color: var(--main-color); padding: 10px;}
+
+nav a {color: var(--text-color); display: block; padding: 20px;}
+h1 {color: var(--main-color);}
 main img {width: 150px;
      height: auto;
      padding: 0px;
@@ -12,7 +19,7 @@ p {padding: 0;}
 main {max-width: 800px;}
 aside {width: 200px;
        padding: 10px;
-       background-color: #eee;
+       background-color: var(--secondary-color);
        margin: 20px;
        color: #333;
        text-align: center;
