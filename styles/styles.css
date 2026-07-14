@@ -27,6 +27,7 @@ p {padding: 5px;
 }
 main {max-width: 800px;}
 aside {width: 200px;
+        text-align: center;
         position: relative;
        
 } 
@@ -35,7 +36,7 @@ aside img {width: 150px;
 }
 aside h2 {
   position: absolute;
-  top: 0px;
+  top: 25px;
   left: 40px;
 }
 footer {margin-top: 20px;
