@@ -26,18 +26,19 @@ p {padding: 5px;
    margin: 5px;
 }
 main {max-width: 800px;}
-aside {width: 200px;
+aside {width: 800px;
+        margin: 0px auto;
         text-align: center;
         position: relative;
        
 } 
-aside img {width: 150px;
+aside img {width: 200px;
              height: auto;          
 }
 aside h2 {
   position: absolute;
   top: 25px;
-  left: 40px;
+  left: 340px;
 }
 footer {margin-top: 20px;
         padding: 10px;
