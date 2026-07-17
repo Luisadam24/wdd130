@@ -49,5 +49,9 @@ h1 { position: absolute;
 .hero article img {
     float: right;
     width: 125px;
+}
+.hero article {
     position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
