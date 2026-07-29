@@ -1,0 +1,23 @@
+table {border-collapse: collapse;
+       border: 2px solid rgb(140, 140, 140);
+       margin: auto;
+}
+th, td {border: 1px solid rgb(150, 150, 150);
+        padding: 8px 12px;
+        text-align: center;
+}
+thead th, tfoot tr {background-color: black;
+                    color: hotpink;
+                    font-weight: 700;
+}
+caption {color: blueviolet;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: large;
+}
+tbody {background-color: blanchedalmond;
+       font-size: normal;
+       font-weight: 400;
+       font-family: cursive;
+
+}
+
