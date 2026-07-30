@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>Quiz</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Quiz of HTML and CSS</h1>
+    </header>
+     <main>
+        <form>
+           <fieldset>
+                <label></label>
+
+                <!--First Question-->
+                <div class="form-item column2">
+                    <label for="q1">1. Define HTML?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="q2">2. What does CSS stands for?</label>
+                    <textarea id="q2" name="q2" required></textarea>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="q3">3. Which one is the valid HTML comment?</label>
+                    <select id="q3" name="q3" required>
+                    <option value=""selected disabled>Select One</option>
+                    <option value="comment">!--This is a comment--</option>
+                    <option value="heading">This is a heading</option>
+                    <option value="paragragh">This is a paragraph</option>
+                    <option value="link">Link</option>
+                    </select>
+
+                </div>
+
+                <div class="form-item column1">
+                    <label for="q4">4. How many heading levels are there in HTML?</label>
+                    <input type="number" id="q4" name="q4" step="1" placeholder="1, 2, 3, 4, 5, or 6" required>
+
+                </div>
+                <button type="submit">Submit Quiz</button>
+
+           </fieldset>
+           
+
+
+        </form>
+     
+
+
+     </main>
+    <footer>
+        <p>Copyright &copy; 2026 Sir Luis Adam University | All rights reserved </p>
+    </footer>
 </body>
 </html>
